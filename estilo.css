@@ -10,7 +10,7 @@ body{
 header{
     width: 800px;
     display:flex;
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.938);
     justify-content: space-around;
     margin:0 auto;
     align-items: center;
@@ -40,3 +40,4 @@ i:hover{
 h1{
     font-size: 20px;
 }
+
