@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}/*
+body{
+   width: 800px; 
+   margin: 0 auto;
+   background-color: aquamarine;
+}*/
+header{
+    width: 800px;
+    display:flex;
+    background-color: aqua;
+    justify-content: space-around;
+    margin:0 auto;
+    align-items: center;
+   
+}
+
+a{
+    text-decoration: none;
+    margin-top: 20px;
+    color:black;
+    font-weight: bold;
+    font-size: 13px;
+      
+}
+a:hover{
+    color:brown;
+}
+nav{
+    
+    align-items: center;
+    justify-content: space-between;
+        
+}
+i:hover{
+    color: brown;
+}
+h1{
+    font-size: 20px;
+}
