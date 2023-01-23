@@ -63,7 +63,7 @@ img{
     border-color:#638741;
     margin-left: 110px;
     margin-bottom: 60px;
-    border:solid 5px #638741;
+    border:solid 6px white;
 
 }   
 
@@ -88,7 +88,6 @@ h3{
 .botones{
     display: flex;  
     background-color:#d4f2b8;
-    display: flex;
     width: 400px;
     align-items: center;
         
@@ -112,16 +111,53 @@ h3{
     
 }
 
-/*
-.img_lugar{
-    background-color: brown;
-    padding: 11px;
-    width: 400px;
-    margin-left: 30px;
+.perfil{
+    width: 800px;
+    background-color: #638741;
+    height: 300px;
+    margin: 0 auto; 
+    display: flex;    
     
-      
 }
-*/
 
+.miPerfil{
+    
+    align-items: center;
+    flex-direction: column;
+    
+    width: 800px;
+    height: 50px;
+    
+}
 
+#descripcion{
+    
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    background-color: brown;
+    
+     
+}
+#descripcion h1 span p{
+    
+
+}
+    
+.experiencia{
+    width: 380px;
+    height: 100px;
+    flex-direction: column;
+    
+    display: flex;
+    background-color: blue;
+    
+}
+.datos{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
 
