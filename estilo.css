@@ -23,6 +23,7 @@ a{
     color:black;
     font-weight: bold;
     font-size: 13px;
+    margin-left: 5px;
       
 }
 a:hover{
@@ -109,55 +110,5 @@ h3{
    padding: 5px; 
     
     
-}
-
-.perfil{
-    width: 800px;
-    background-color: #638741;
-    height: 300px;
-    margin: 0 auto; 
-    display: flex;    
-    
-}
-
-.miPerfil{
-    
-    align-items: center;
-    flex-direction: column;
-    
-    width: 800px;
-    height: 50px;
-    
-}
-
-#descripcion{
-    
-    flex-direction: column;
-    width: 400px;
-    height: 100px;
-    background-color: brown;
-    
-     
-}
-#descripcion h1 span p{
-    
-
-}
-    
-.experiencia{
-    width: 380px;
-    height: 100px;
-    flex-direction: column;
-    
-    display: flex;
-    background-color: blue;
-    
-}
-.datos{
-    width: 800px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-color: aqua;
 }
 
