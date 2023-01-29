@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-}/*
+}
 body{
-   width: 800px; 
+   width: 800px;
    margin: 0 auto;
-   background-color: aquamarine;
-}*/
+   
+}
 header{
     width: 800px;
     display:flex;
@@ -16,6 +16,9 @@ header{
     align-items: center;
    
 }
+header h1{
+    margin-left: 54px;
+}
 
 a{
     text-decoration: none;
@@ -23,7 +26,7 @@ a{
     color:black;
     font-weight: bold;
     font-size: 13px;
-    margin-left: 5px;
+    margin-left: 10px;
       
 }
 a:hover{
@@ -44,13 +47,11 @@ h1{
 .hero{
     width: 800px;
     height: 250px;
-    background-color:#d4f2b8;
+    background-color:#90a378;
     display: flex;
     padding: 72px 0 0 72px;
     margin: 0 auto;
-    
-    
-    
+     
  }
 
  .foto_hero{
@@ -67,7 +68,6 @@ img{
     border:solid 6px white;
 
 }   
-
 
 .texto-hero{
     width: 400px;
@@ -88,7 +88,7 @@ h3{
 }
 .botones{
     display: flex;  
-    background-color:#d4f2b8;
+    
     width: 400px;
     align-items: center;
         
@@ -102,13 +102,79 @@ h3{
 .contacto{
     
     margin-left: 15px;
-    font-size: 9px;
-    
+    font-size: 9px;  
  
 }
 .flechita{
    padding: 5px; 
     
+}
+
+.perfil{
+    margin: 0 auto;
+    width: 873px;
+    background-color:#def8d9 ;
     
+    
+}
+.miPerfil{
+    text-align: center;
+    
+    padding: 35px;
+}
+.boton2{
+    font-size: 10px;
+    background-color:#90a378;
+    
+    padding: 0 15px;
+    border-color: #d4f2b8;
+    
+}
+.miPerfil p{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.flex{
+    display: flex;
+}
+.descripcion{
+    
+    width: 50%;
+    margin-left: 70px;
+    
+    
+}
+.descripcion p{
+    margin-top: 8px;
+    text-align: justify;
+}
+span u{
+    text-decoration:underline #90a378 solid 3px;
+    margin-top: 10px;
+}
+.experiencia{
+    width: 50%;
+    
+    margin-left: 60px;
+    text-align: center;
+}
+
+.redondo{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    
+    background-color: #90a378;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.datos{
+    padding: 30px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
 }
 
