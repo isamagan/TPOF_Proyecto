@@ -176,5 +176,72 @@ span u{
     margin-left: 35px;
     display: flex;
     justify-content: space-between;
+    
+}
+.datos p{
+    font-size: 11px;
+    
+}
+.servicios{
+    background-color:#ccf3c3 ;
+    padding: 30px;
+    width: 814px;
+
+}
+.miServicios{
+    text-align: center;
 }
 
+.boton3{
+    font-size: 10px;
+    background-color:#90a378;
+    
+    padding: 0 15px;
+    border-color: #d4f2b8;
+    
+}
+.miServicios p{
+    font-weight: bold;
+    font-size: 20px; 
+    
+}
+.flexServicios{
+    display: flex;
+}
+.flexServicios2{
+    display: flex;
+}
+.icono, .disenio_grafico{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.flexServicios p, .flexServicios2 p{
+    text-align: center;
+    margin: 10px;
+}
+.icono, .disenio_web{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.icono, .desarrollo_web{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.icono, .marca{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.icono, .negocios{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.icono, .marketing_digital{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
