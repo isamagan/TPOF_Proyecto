@@ -47,7 +47,7 @@ h1{
 .hero{
     width: 800px;
     height: 250px;
-    background-color:#90a378;
+    background-color:gold;
     display: flex;
     padding: 72px 0 0 72px;
     margin: 0 auto;
@@ -172,10 +172,10 @@ span u{
     margin-right: 100px;
 }
 .datos{
-    padding: 30px;
-    margin-left: 35px;
+    padding: 40px 0;
+    margin-left: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .datos p{
@@ -215,6 +215,7 @@ span u{
     display: flex;
     justify-content: center;
     font-size: 12px;
+    
 }
 .flexServicios p, .flexServicios2 p{
     text-align: center;
@@ -239,9 +240,227 @@ span u{
     display: flex;
     justify-content: center;
     font-size: 12px;
+    
 }
 .icono, .marketing_digital{
     display: flex;
     justify-content: center;
     font-size: 12px;
+}
+
+.bi-display {
+   color:  green;
+
+}
+
+.bi-images{
+    color:green;
+}   
+    
+ .bi-pencil-square{
+    color: green;
+ }
+
+ .bi-magic{
+    color:green;
+ }
+ .bi-file-bar-graph{
+    color:green;
+ }
+
+ .bi-globe {
+    color:green;
+ }
+ .curriculum{
+    background-color:#def8d9 ;
+    padding: 20px;
+    width: 835px;
+    height: 1000px;
+ }
+ .miCurriculum{
+    text-align: center;
+    padding: 20px;  
+    
+}
+.boton4{
+    font-size: 10px;
+    background-color:#90a378;
+    
+    padding: 0 15px;
+    border-color: #d4f2b8;
+    
+}
+.miCurriculum p{
+    font-weight: bold;
+    font-size: 20px;  
+}
+.flexCurriculum { 
+    
+    display: flex;
+    
+}
+.educacion{
+    width: 60%;
+    padding: 8px 62px;
+}
+.educacion h1{
+    padding: 0 50px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.miEducacionTitulos {
+    margin-left: 65px;
+    font-size: 20px;
+    padding: 0 15px;
+    border-left: 2px solid gold;
+    
+    
+}
+.miEducacionTitulos h2 {
+    
+    font-size: 15px;
+    
+}
+.miEducacionTitulos p{
+    font-size:  13px;
+    
+
+}
+
+.experiencia2{
+    padding: 8px 71px;
+    
+}
+.experiencia2 h1{
+    font-size: 20px;
+    padding: 0 33px; 
+    
+}
+
+.miExperiencia{
+    
+    padding: 1px 13px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 39px;
+    border-left: 2px solid gold;
+    margin-top: 5px;
+    
+    
+}
+.miExperiencia h2 {
+    
+    font-size: 15px; 
+
+}
+.miExperiencia p{
+    font-size:  13px; ;
+}
+.jr{
+    padding: 3px 0;
+}
+.ht{
+    padding: 5px 0 1px;
+}
+.habilidades{
+    
+    padding: 10px 50px;
+    background-color: #90a378;    
+}
+
+.flexhabilidades {
+    display: flex;
+}
+.habilidadesbarra1 .habilidadesbarra2{
+    background-color: #638741;
+    
+}
+.barraiz{
+    width: 35%;
+    padding: 0 48px;
+    margin-right: 0;
+    margin-left: 5px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    height: 3px;
+    width: 90%;
+    background-color: #90a378;
+}
+.dw{
+    height:3px ;
+    width: 35%;
+    margin-top: 0;
+    background-color: blue;   
+}
+
+.htc{
+    height:3px ;
+    width: 90%;
+    background-color: blue; 
+}
+
+.js{
+    height:3px ;
+    width: 30%;
+    background-color: blue;
+}
+.barrader{
+    width: 35%;
+    
+    padding: 0 50px;
+    background-color: yellowgreen;
+}
+.rjs{
+    height:3px ;
+    width: 30%;
+    background-color: blue;
+    display: flex;
+}
+.an{
+    height:3px ;
+    width: 30%;
+    background-color: blue;
+    display: flex;
+}
+.bo{
+    height:3px ;
+    width: 30%;
+    background-color: blue;
+    display: flex;
+}
+
+.w{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+.h{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+.j{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+.r{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding: 0 0 1px 2px;
+}
+.a{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+.b{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
 }
