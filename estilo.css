@@ -275,7 +275,7 @@ span u{
     background-color:#def8d9 ;
     padding: 20px;
     width: 835px;
-    height: 1000px;
+    
  }
  .miCurriculum{
     text-align: center;
@@ -285,7 +285,6 @@ span u{
 .boton4{
     font-size: 10px;
     background-color:#90a378;
-    
     padding: 0 15px;
     border-color: #d4f2b8;
     
@@ -301,19 +300,20 @@ span u{
 }
 .educacion{
     width: 60%;
-    padding: 8px 62px;
+    padding: 7px 100px;
 }
 .educacion h1{
-    padding: 0 50px;
+     
     font-size: 20px;
-    margin-left: 10px;
+    
 }
 
 .miEducacionTitulos {
-    margin-left: 65px;
+    margin-left: 100px;
     font-size: 20px;
-    padding: 0 15px;
+    padding: 0 41px 1px 6px;
     border-left: 2px solid gold;
+    margin-top: 1px;
     
     
 }
@@ -328,25 +328,21 @@ span u{
 
 }
 
-.experiencia2{
-    padding: 8px 71px;
-    
-}
 .experiencia2 h1{
     font-size: 20px;
-    padding: 0 33px; 
+    padding: 8px 71px 2px 40px;
     
 }
 
 .miExperiencia{
     
-    padding: 1px 13px;
+    padding: 2px 20px 0 6px;
     display: flex;
     flex-direction: column;
     margin-left: 39px;
     border-left: 2px solid gold;
-    margin-top: 5px;
-    
+    margin-top: 6px;
+        
     
 }
 .miExperiencia h2 {
@@ -358,78 +354,105 @@ span u{
     font-size:  13px; ;
 }
 .jr{
-    padding: 3px 0;
+    padding: 2px 0;
 }
 .ht{
-    padding: 5px 0 1px;
+     
+    margin-top: 1px;
 }
 .habilidades{
     
-    padding: 10px 50px;
-    background-color: #90a378;    
-}
+    padding: 10px 100px;
+}   
 
 .flexhabilidades {
     display: flex;
 }
-.habilidadesbarra1 .habilidadesbarra2{
-    background-color: #638741;
-    
-}
+
 .barraiz{
-    width: 35%;
-    padding: 0 48px;
-    margin-right: 0;
-    margin-left: 5px;
-    background-color: aquamarine;
+    width: 34%;
+    padding: 1px 89px;
+    margin-left: 13px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5px;
 }
+    
 .contenedor{
     height: 3px;
     width: 90%;
     background-color: #90a378;
+    
+}
+.barraiz {
+    display: flex;
+}
+.disenioweb{
+    padding: 0 0 0 0;
+    height: 4px;
+    
+    
 }
 .dw{
     height:3px ;
-    width: 35%;
-    margin-top: 0;
-    background-color: blue;   
+    width: 65%;
+    background-color:gold;
+        
+}
+.diseniohtc{
+    height: 4px;
+    margin-top: 12px;
 }
 
 .htc{
     height:3px ;
-    width: 90%;
-    background-color: blue; 
+    width: 95%;
+    background-color: gold;
+    padding: 0; 
+}
+.diseniojs{
+    height: 4px;
+    margin-top: 12px;
 }
 
 .js{
     height:3px ;
-    width: 30%;
-    background-color: blue;
+    width: 80%;
+    background-color: gold;
 }
 .barrader{
-    width: 35%;
+    width: 37%;
+    height: 3px;
+    padding: 3px 0 0 2px;
     
-    padding: 0 50px;
-    background-color: yellowgreen;
+}
+.diseniorjs{
+    height: 3px;
 }
 .rjs{
     height:3px ;
-    width: 30%;
-    background-color: blue;
+    width: 70%;
+    background-color: gold;
     display: flex;
+}
+.disenioan{
+    height: 4px;
+    margin-top: 12px;
 }
 .an{
     height:3px ;
-    width: 30%;
-    background-color: blue;
+    width: 60%;
+    background-color: gold;
     display: flex;
+}
+.diseniobo{
+    height: 4px;
+    margin-top: 12px;
 }
 .bo{
     height:3px ;
-    width: 30%;
-    background-color: blue;
+    width: 99%;
+    background-color: gold;
     display: flex;
 }
 
@@ -437,6 +460,7 @@ span u{
     display: flex;
     justify-content: flex-end;
     margin-top: 0;
+    padding: 0 0 0 1px;
 }
 .h{
     display: flex;
@@ -452,7 +476,7 @@ span u{
     display: flex;
     justify-content: flex-end;
     margin-top: 0;
-    padding: 0 0 1px 2px;
+    padding: 0 0px 0 0px;
 }
 .a{
     display: flex;
@@ -463,4 +487,16 @@ span u{
     display: flex;
     justify-content: flex-end;
     margin-top: 0;
+}
+.contenedorboton{
+    padding: 0 380px;
+    width: 835px;
+    margin-top: 10px;
+    
+}
+.botoncv{
+    font-size: 10px;
+    padding: 14px;
+    border-color: #d4f2b8;
+    align-content: center;  
 }
