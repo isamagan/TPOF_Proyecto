@@ -59,16 +59,16 @@ h1{
     display: flex;
     
 }
-img{
+.fotoHero img{
+
     width: 45%;
     border-radius: 100%; 
     border-color:#638741;
     margin-left: 110px;
     margin-bottom: 60px;
     border:solid 6px white;
-
-}   
-
+ 
+}
 .texto-hero{
     width: 400px;
     flex-direction: column;
@@ -499,4 +499,47 @@ span u{
     padding: 14px;
     border-color: #d4f2b8;
     align-content: center;  
+}
+.portfolio{
+    background-color:whitesmoke;
+    padding: 50px 27px;
+    width: 820px;
+    
+ }
+ .miPortfolio{
+    text-align: center;
+    padding: 20px;  
+    
+}
+.boton5{
+    font-size: 10px;
+    background-color:#90a378;
+    padding: 0 15px;
+    border-color: #d4f2b8;
+}
+.miPortfolio p{
+    font-weight: bold;
+    font-size: 20px;  
+}
+.flexfotos1{
+    padding: 6px 92px;
+    display: flex;
+    width: 20%;
+    height: 340px;
+    
+}
+.flexfotos1 img{
+    border: 7px solid whitesmoke;
+}
+
+.flexfotos2{
+    display: flex;
+    width: 20%;
+    height: 340px;
+    padding: 0px 2px 0px 90px;
+    display: flex;
+    
+}
+.flexfotos2 img{
+    border: 7px solid whitesmoke;
 }
