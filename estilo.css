@@ -8,9 +8,9 @@ body{
    
 }
 header{
-    width: 800px;
+    width: 870px;
     display:flex;
-    background-color: rgba(255, 255, 255, 0.938);
+    background-color: whitesmoke;
     justify-content: space-around;
     margin:0 auto;
     align-items: center;
@@ -30,7 +30,7 @@ a{
       
 }
 a:hover{
-    color:brown;
+    color:gold;
 }
 nav{
     
@@ -39,7 +39,7 @@ nav{
         
 }
 i:hover{
-    color: brown;
+    color:gold;
 }
 h1{
     font-size: 20px;
@@ -113,7 +113,7 @@ h3{
 .perfil{
     margin: 0 auto;
     width: 873px;
-    background-color:#def8d9 ;
+    background-color:rgba(255, 255, 255, 0.938)
     
     
 }
@@ -124,7 +124,7 @@ h3{
 }
 .boton2{
     font-size: 10px;
-    background-color:#90a378;
+    background-color:gold;
     
     padding: 0 15px;
     border-color: #d4f2b8;
@@ -164,8 +164,7 @@ span u{
     margin-top: 30px;
     font-size: 12px;
     font-weight: bold;
-    
-    background-color: #90a378;
+    background-color: gold;
     border-radius: 50%;
     padding: 10px;
     margin-left: 100px;
@@ -183,7 +182,7 @@ span u{
     
 }
 .servicios{
-    background-color:#ccf3c3 ;
+    background-color:whitesmoke ;
     padding: 30px;
     width: 814px;
 
@@ -272,7 +271,7 @@ span u{
     color:green;
  }
  .curriculum{
-    background-color:#def8d9 ;
+    background-color:rgba(255, 255, 255, 0.938);
     padding: 20px;
     width: 835px;
     
