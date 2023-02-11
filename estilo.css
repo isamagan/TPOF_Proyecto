@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-   width: 800px;
+   width: 870px;
    margin: 0 auto;
    
 }
@@ -17,10 +17,11 @@ header{
    
 }
 header h1{
-    margin-left: 54px;
+    margin-left: 62px;
+    font-size: 15px;
 }
 
-a{
+ header a{
     text-decoration: none;
     margin-top: 20px;
     color:black;
@@ -29,7 +30,8 @@ a{
     margin-left: 10px;
       
 }
-a:hover{
+
+header a:hover{
     color:gold;
 }
 nav{
@@ -38,15 +40,41 @@ nav{
     justify-content: space-between;
         
 }
-i:hover{
+.iconos i{
+    margin-right: 8px;
+}
+
+.iconos i:hover{
     color:gold;
 }
-h1{
-    font-size: 20px;
+
+.texto_hero{
+    width: 400px;
+    flex-direction: column;
+    margin-left: 10px;
+   
 }
+
+.texto_hero h1{
+    font-size: 23px;
+    font-weight: 30px;
+    border-right: 7px solid  #90a378; 
+    width: 291px;
+    height: 29px;
+        
+}
+
+.texto_hero h2{
+    font-size: 18px;
+    
+}
+.texto_hero h3{
+    font-size:9px;
+}
+
 .hero{
-    width: 800px;
-    height: 250px;
+    width: 820px;
+    height: 270px;
     background-color:gold;
     display: flex;
     padding: 72px 0 0 72px;
@@ -66,40 +94,25 @@ h1{
     border-color:#638741;
     margin-left: 110px;
     margin-bottom: 60px;
-    border:solid 6px white;
+    
+    border:solid 8px #90a378 ;
  
 }
-.texto-hero{
-    width: 400px;
-    flex-direction: column;
-    margin-left: 50px;
 
-    
-}
-h1{
-    font-weight:1px;
-}
-h2{
-    font-size: 28px;
-    font-weight: 28px;
-}
-h3{
-    font-size:10px ;
-}
-.botones{
+ .flexhero{
     display: flex;  
-    
     width: 400px;
     align-items: center;
+    
         
 }
-.boton{
+.boton a{
     background-color: black;
     color: white;
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 10px;
 }
-.contacto{
+.contactame{
     
     margin-left: 15px;
     font-size: 9px;  
@@ -108,6 +121,10 @@ h3{
 .flechita{
    padding: 5px; 
     
+}
+.flechita2{
+    margin-top: 100px;
+    margin-left: 345px;
 }
 
 .perfil{
@@ -118,17 +135,22 @@ h3{
     
 }
 .miPerfil{
+
     text-align: center;
     
     padding: 35px;
 }
 .boton2{
-    font-size: 10px;
+   
     background-color:gold;
-    
     padding: 0 15px;
-    border-color: #d4f2b8;
+    border-color: #d4f2b8; 
     
+}
+
+.boton2{
+    font-size: 10px;
+    color: black;
 }
 .miPerfil p{
     font-weight: bold;
@@ -145,12 +167,15 @@ h3{
     
     
 }
+.descripcion h1{
+    font-size: 15px;
+}
 .descripcion p{
     margin-top: 8px;
     text-align: justify;
 }
 span u{
-    text-decoration:underline #90a378 solid 3px;
+    text-decoration:underline gold solid 3px;
     margin-top: 10px;
 }
 .experiencia{
@@ -177,6 +202,9 @@ span u{
     justify-content: space-evenly;
     
 }
+.datos h3{
+    font-size: 10px;
+}
 .datos p{
     font-size: 11px;
     
@@ -184,20 +212,23 @@ span u{
 .servicios{
     background-color:whitesmoke ;
     padding: 30px;
-    width: 814px;
-
+    width: 830px;
+    margin: 0 auto;
 }
 .miServicios{
     text-align: center;
 }
 
 .boton3{
-    font-size: 10px;
-    background-color:#90a378;
-    
-    padding: 0 15px;
+   padding: 0 15px;
     border-color: #d4f2b8;
-    
+    background-color:gold;
+       
+}
+
+.boton3{
+    font-size: 10px;
+    color: black;
 }
 .miServicios p{
     font-weight: bold;
@@ -248,32 +279,32 @@ span u{
 }
 
 .bi-display {
-   color:  green;
+   color:  gold;
 
 }
 
 .bi-images{
-    color:green;
+    color:gold;
 }   
     
  .bi-pencil-square{
-    color: green;
+    color: gold;
  }
 
  .bi-magic{
-    color:green;
+    color:gold;
  }
  .bi-file-bar-graph{
-    color:green;
+    color:gold;
  }
 
  .bi-globe {
-    color:green;
+    color:gold;
  }
  .curriculum{
     background-color:rgba(255, 255, 255, 0.938);
     padding: 20px;
-    width: 835px;
+    width: 870px;
     
  }
  .miCurriculum{
@@ -282,10 +313,15 @@ span u{
     
 }
 .boton4{
-    font-size: 10px;
-    background-color:#90a378;
     padding: 0 15px;
     border-color: #d4f2b8;
+    background-color:gold;
+              
+ }
+     
+ .boton4{
+     font-size: 10px;
+    color: black;
     
 }
 .miCurriculum p{
@@ -298,93 +334,124 @@ span u{
     
 }
 .educacion{
-    width: 60%;
-    padding: 7px 100px;
+    width: 70%;
+    padding: 7px 60px;
+    font-size: 20px;
+    
 }
 .educacion h1{
-     
-    font-size: 20px;
+    
+    font-size: ;
     
 }
 
 .miEducacionTitulos {
-    margin-left: 100px;
+    margin-left: 60px;
     font-size: 20px;
-    padding: 0 41px 1px 6px;
+    padding: 0px 20px 0 6px;
     border-left: 2px solid gold;
     margin-top: 1px;
-    
+    height: 200px;
+    width:65% ; 
     
 }
 .miEducacionTitulos h2 {
-    
+    font-weight: 10px;
     font-size: 15px;
     
 }
+.miEducacionTitulos h3{
+    font-size: 10px;
+    font-weight: 10px;
+
+}
+
 .miEducacionTitulos p{
-    font-size:  13px;
-    
+    font-size:  10px;  
 
 }
 
 .experiencia2 h1{
     font-size: 20px;
-    padding: 8px 71px 2px 40px;
+    padding: 6px 32px 5px 0px;
+    margin-left: 32px;
+    width: 54%;
     
 }
 
 .miExperiencia{
     
-    padding: 2px 20px 0 6px;
+    padding: 0px 0px 0px 4px;
     display: flex;
     flex-direction: column;
-    margin-left: 39px;
+    margin-left: 30px;
     border-left: 2px solid gold;
-    margin-top: 6px;
-        
+    margin-top: 7px;
+    height:200px;
+    width: 83%;
+    
     
 }
 .miExperiencia h2 {
-    
+    padding: 0;
     font-size: 15px; 
+    font-weight: 10px;;
 
 }
 .miExperiencia p{
-    font-size:  13px; ;
+    font-size:  10px; ;
 }
+.miExperiencia h3{
+    font-size: 10px;
+    font-weight: 10px;
+}
+
 .jr{
-    padding: 2px 0;
+    padding: 5px 1px  2px 0 0;
+    margin-bottom: 4px;
+
 }
-.ht{
-     
-    margin-top: 1px;
+.adobe{
+    padding-bottom: ;
+    margin-top: 3px;
+
 }
 .habilidades{
-    
-    padding: 10px 100px;
-}   
+    width: 600px;
+    padding: 5px 55px;
+} 
+.habilidades h1{
+    font-size: 20px;
+    margin-right: 30px;
+    padding-left: 3px;
+}  
 
 .flexhabilidades {
     display: flex;
 }
 
 .barraiz{
-    width: 34%;
-    padding: 1px 89px;
-    margin-left: 13px;
+    width: 41%;
+    padding: 1px 58px;
+    margin-left: ;
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
+     
 }
     
 .contenedor{
     height: 3px;
     width: 90%;
+    
     background-color: #90a378;
     
 }
 .barraiz {
     display: flex;
+}
+.barraiz h3{
+    font-size: 10px;
 }
 .disenioweb{
     padding: 0 0 0 0;
@@ -420,10 +487,15 @@ span u{
     background-color: gold;
 }
 .barrader{
-    width: 37%;
+    width: 40%;
     height: 3px;
     padding: 3px 0 0 2px;
+    margin-left: 14px;
     
+}
+
+.barrader h3{
+    font-size: 10px;
 }
 .diseniorjs{
     height: 3px;
@@ -501,8 +573,9 @@ span u{
 }
 .portfolio{
     background-color:whitesmoke;
-    padding: 50px 27px;
-    width: 820px;
+    padding: 50px 27px 0;
+    width: 870px;
+    margin: 0 auto;
     
  }
  .miPortfolio{
@@ -542,3 +615,138 @@ span u{
 .flexfotos2 img{
     border: 7px solid whitesmoke;
 }
+.contacto{
+    width: 870px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+}
+.flexcontacto{
+    display: flex;
+   
+    
+    
+}
+.contactoDatos {
+    /*flex-direction: column;*/
+    width: 430px;
+    height:350px ;
+    background-color: gold;
+    padding: 15px 20px 40px 15px;
+    background-color: aqua;
+    
+    
+   
+}
+.contactoDatos h1{
+    font-size: 20px;
+    padding: 0 103px  0 0 ;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 430px;
+}
+.contactoDatos p{
+    padding: 8px 103px  0 0 ;
+    margin-left: 100px;
+    font-size: 13px;
+    
+}
+
+.domtel h2{
+    padding: 8px 103px  0 0 ;
+    margin-left: 100px;
+    font-size: 13px;
+
+}
+.domtel p{
+    padding: 8px 103px  0 0 ;
+    margin-left: 100px;
+    font-size: 13px;
+
+}  
+
+.redes{
+    padding: 0 103px  0 0 ;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.presupuesto{
+    background-color: gold;
+    width:440px;
+    margin-left: 22px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.presupuesto h1{
+    display: flex;
+    background-color: gold;
+    flex-direction: column;
+    padding: 20px 0px 40px 15px;
+    width: 440px;
+    background-color: aquamarine;
+    
+    
+}
+.redes{
+    padding: 8px 103px  0 0 ;
+}
+
+.redes a{
+    text-decoration: none;
+    margin-top: 20px;
+    color:black;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+.redes i:hover{
+    color:gold;
+}
+label{
+    font-size: 13px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 319px;
+}
+input[type=text]{
+    border: 0;
+    border-bottom: 1px solid  #90a378;;
+    padding: 20px;
+    background-color: gold;
+}
+input[type=email]{
+    border: 0;
+    border-bottom: 1px solid  #90a378;;
+    padding: 20px;
+    background-color: gold;
+}
+textarea{
+    border: 0;
+    border-bottom: 1px solid  #90a378;
+    padding: 19px;
+    background-color: gold;
+}
+
+
+button{
+    width: 100px;
+    text-align: center;
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+
+}
+.bi-arrow-right-short{
+    color: white;
+}
+
+
+
