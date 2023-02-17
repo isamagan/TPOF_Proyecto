@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Merienda&family=Oleo+Script&family=Poppins:wght@100&family=Rubik&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+html{
+    scroll-behavior:smooth ;
 }
 body{
    width: 870px;
@@ -17,8 +22,10 @@ header{
    
 }
 header h1{
-    margin-left: 62px;
-    font-size: 15px;
+    margin-left: 63px;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+
 }
 
  header a{
@@ -26,7 +33,7 @@ header h1{
     margin-top: 20px;
     color:black;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 13px; /*si lo pongo en rem es muy grande la tipografía*/
     margin-left: 10px;
       
 }
@@ -37,8 +44,7 @@ header a:hover{
 nav{
     
     align-items: center;
-    justify-content: space-between;
-        
+    justify-content: space-between        
 }
 .iconos i{
     margin-right: 8px;
@@ -52,29 +58,32 @@ nav{
     width: 400px;
     flex-direction: column;
     margin-left: 10px;
-   
+    font-family: 'Rubik', sans-serif;
+       
 }
 
 .texto_hero h1{
-    font-size: 23px;
-    font-weight: 30px;
+    font-size: 1,5rem;
+    font-weight: 600 bolder;
     border-right: 7px solid  #90a378; 
     width: 291px;
     height: 29px;
-        
+    font-family: 'Rubik', sans-serif ;   
 }
 
 .texto_hero h2{
-    font-size: 18px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
     
 }
 .texto_hero h3{
-    font-size:9px;
+    font-size:0,5rem;
+    font-family: 'Rubik', sans-serif;    
 }
 
 .hero{
     width: 820px;
-    height: 270px;
+    height: 285px;
     background-color:gold;
     display: flex;
     padding: 72px 0 0 72px;
@@ -88,13 +97,11 @@ nav{
     
 }
 .fotoHero img{
-
     width: 45%;
     border-radius: 100%; 
     border-color:#638741;
     margin-left: 110px;
     margin-bottom: 60px;
-    
     border:solid 8px #90a378 ;
  
 }
@@ -110,12 +117,11 @@ nav{
     background-color: black;
     color: white;
     padding: 0 10px;
-    font-size: 10px;
+    font-size: 0,5rem;
 }
 .contactame{
-    
     margin-left: 15px;
-    font-size: 9px;  
+    font-size: 10px;  
  
 }
 .flechita{
@@ -135,9 +141,8 @@ nav{
     
 }
 .miPerfil{
-
+    font-family: 'Rubik', sans-serif;    
     text-align: center;
-    
     padding: 35px;
 }
 .boton2{
@@ -149,13 +154,13 @@ nav{
 }
 
 .boton2{
-    font-size: 10px;
+    font-size: 0,5rem;
     color: black;
 }
 .miPerfil p{
     font-weight: bold;
-    font-size: 20px;
-    
+    font-size: 20px; /*en rem no da la medida que me gusta*/
+    font-family: 'Rubik', sans-serif ;   
 }
 .flex{
     display: flex;
@@ -163,50 +168,63 @@ nav{
 .descripcion{
     
     width: 50%;
-    margin-left: 70px;
-    
+    margin-left: 70px;  
     
 }
 .descripcion h1{
-    font-size: 15px;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;   
 }
 .descripcion p{
     margin-top: 8px;
     text-align: justify;
+    font-family: 'Rubik', sans-serif ;    
 }
-span u{
-    text-decoration:underline gold solid 3px;
+span{
+    font-weight:bolder;
     margin-top: 10px;
+    padding-left: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: gold;
+    width: 45px;
+    font-family: 'Rubik', sans-serif;    
 }
 .experiencia{
     width: 50%;
-    
     margin-left: 60px;
     text-align: center;
 }
 
 .redondo{
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: bold;
     background-color: gold;
     border-radius: 50%;
     padding: 10px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; 
+    font-family: 'Rubik', sans-serif ;   
+}
+.redondo h1:hover{
+    font-family: 'Poppins', sans-serif;   
 }
 .datos{
     padding: 40px 0;
     margin-left: 20px;
     display: flex;
     justify-content: space-evenly;
-    
+    font-family: 'Poppins', sans-serif;  
 }
 .datos h3{
-    font-size: 10px;
+    font-size: 10px; /*en rem es muy grande, no me gusta*/
+    font-family: 'Poppins', sans-serif;  
 }
 .datos p{
     font-size: 11px;
+    font-weight: bolder 300px;
+    font-family: 'Rubik', sans-serif ; 
     
 }
 .servicios{
@@ -233,7 +251,7 @@ span u{
 .miServicios p{
     font-weight: bold;
     font-size: 20px; 
-    
+    font-family: 'Rubik', sans-serif ; 
 }
 .flexServicios{
     display: flex;
@@ -306,10 +324,12 @@ span u{
     padding: 20px;
     width: 870px;
     
+    
  }
  .miCurriculum{
     text-align: center;
-    padding: 20px;  
+    padding: 20px; 
+    font-family: 'Rubik', sans-serif ; 
     
 }
 .boton4{
@@ -326,7 +346,8 @@ span u{
 }
 .miCurriculum p{
     font-weight: bold;
-    font-size: 20px;  
+    font-size: 20px; 
+     
 }
 .flexCurriculum { 
     
@@ -336,11 +357,12 @@ span u{
 .educacion{
     width: 70%;
     padding: 7px 60px;
-    font-size: 20px;
+    font-size: 20px; /* en px me gusta más la medida*/
+    font-family: 'Rubik', sans-serif ; 
     
 }
 .educacion h1{
-    
+    font-family: 'Rubik', sans-serif ; 
     font-size: ;
     
 }
@@ -350,25 +372,29 @@ span u{
     font-size: 20px;
     padding: 0px 20px 0 6px;
     border-left: 2px solid gold;
-    margin-top: 1px;
-    height: 200px;
+    margin-top: 4px;
+    height: 229px;
     width:65% ; 
+    font-family: 'Rubik', sans-serif ; 
     
 }
 .miEducacionTitulos h2 {
     font-weight: 10px;
     font-size: 15px;
+    font-family: 'Rubik', sans-serif ; 
+    margin-top: 1px;
     
 }
 .miEducacionTitulos h3{
     font-size: 10px;
     font-weight: 10px;
-
+    font-family: 'Rubik', sans-serif ; 
 }
 
 .miEducacionTitulos p{
-    font-size:  10px;  
-
+    font-size:  10px; 
+    font-family: 'Rubik', sans-serif ;  
+    
 }
 
 .experiencia2 h1{
@@ -376,20 +402,21 @@ span u{
     padding: 6px 32px 5px 0px;
     margin-left: 32px;
     width: 54%;
+    font-family: 'Rubik', sans-serif ; 
     
 }
 
 .miExperiencia{
     
-    padding: 0px 0px 0px 4px;
+    padding: 0px 0px 0px 6px;
     display: flex;
     flex-direction: column;
     margin-left: 30px;
     border-left: 2px solid gold;
     margin-top: 7px;
-    height:200px;
+    height:225px;
     width: 83%;
-    
+    font-family: 'Rubik', sans-serif ; 
     
 }
 .miExperiencia h2 {
@@ -399,7 +426,8 @@ span u{
 
 }
 .miExperiencia p{
-    font-size:  10px; ;
+    font-size:  10px;
+    
 }
 .miExperiencia h3{
     font-size: 10px;
@@ -417,13 +445,16 @@ span u{
 
 }
 .habilidades{
-    width: 600px;
+    width: 595px;
     padding: 5px 55px;
+    margin-top: 30px;
+    margin-bottom: 4px;
 } 
 .habilidades h1{
     font-size: 20px;
     margin-right: 30px;
     padding-left: 3px;
+    font-family: 'Rubik', sans-serif ; 
 }  
 
 .flexhabilidades {
@@ -431,7 +462,7 @@ span u{
 }
 
 .barraiz{
-    width: 41%;
+    width: 39%;
     padding: 1px 58px;
     margin-left: ;
     display: flex;
@@ -443,8 +474,7 @@ span u{
 .contenedor{
     height: 3px;
     width: 90%;
-    
-    background-color: #90a378;
+    background-color:#b8b4ab;
     
 }
 .barraiz {
@@ -452,6 +482,7 @@ span u{
 }
 .barraiz h3{
     font-size: 10px;
+    font-family: 'Rubik', sans-serif ; 
 }
 .disenioweb{
     padding: 0 0 0 0;
@@ -489,13 +520,15 @@ span u{
 .barrader{
     width: 40%;
     height: 3px;
-    padding: 3px 0 0 2px;
-    margin-left: 14px;
+    padding: 3px 0 0 5px;
+    margin-left: 25px;
+    margin-bottom: ;
     
 }
 
 .barrader h3{
     font-size: 10px;
+    font-family: 'Rubik', sans-serif ; 
 }
 .diseniorjs{
     height: 3px;
@@ -559,49 +592,71 @@ span u{
     justify-content: flex-end;
     margin-top: 0;
 }
+hr{
+    background-color: whitesmoke ;
+}
 .contenedorboton{
-    padding: 0 380px;
+    padding: 0px 380px 0;
     width: 835px;
-    margin-top: 10px;
+    
+    margin-top: ;
     
 }
-.botoncv{
+.botoncv {
+    color:black;
     font-size: 10px;
-    padding: 14px;
-    border-color: #d4f2b8;
-    align-content: center;  
+    color:white;
+    padding: 0px 8px 0 0px;
+    text-decoration: none;
+    text-align: center; 
+    font-family: 'Rubik', sans-serif ;    
+}
+
+.botoncv a:hover{
+    color: gold;
 }
 .portfolio{
     background-color:whitesmoke;
     padding: 50px 27px 0;
     width: 870px;
     margin: 0 auto;
+    height: 870px;
     
  }
  .miPortfolio{
     text-align: center;
     padding: 20px;  
-    
+    font-family: 'Rubik', sans-serif ; 
 }
 .boton5{
-    font-size: 10px;
-    background-color:#90a378;
+    background-color:gold;
     padding: 0 15px;
-    border-color: #d4f2b8;
+    border-color:#d4f2b8;
+}
+.boton5{
+    font-size:10px ;
+    color:black;
 }
 .miPortfolio p{
     font-weight: bold;
-    font-size: 20px;  
+    font-size: 20px; 
+    font-family: 'Rubik', sans-serif ; 
 }
 .flexfotos1{
     padding: 6px 92px;
     display: flex;
     width: 20%;
     height: 340px;
+    background-color: whitesmoke;
     
 }
 .flexfotos1 img{
     border: 7px solid whitesmoke;
+    filter:gold(100%)
+}
+.flexfotos1 img:hover{
+    filter: grayscale(0%);
+    transform: rotate(10deg);
 }
 
 .flexfotos2{
@@ -610,16 +665,25 @@ span u{
     height: 340px;
     padding: 0px 2px 0px 90px;
     display: flex;
-    
+    background-color: whitesmoke;   
 }
 .flexfotos2 img{
     border: 7px solid whitesmoke;
 }
+.flexfotos2 img{
+    border: 7px solid whitesmoke;
+    filter:gold(100%)
+}
+.flexfotos2 img:hover{
+    filter: grayscale(0%);
+    transform: rotate(10deg);
+}
+
 .contacto{
     width: 870px;
     margin: 0 auto;
     margin-top: 40px;
-    
+    font-family: 'Rubik', sans-serif ; 
     
 }
 .flexcontacto{
@@ -634,9 +698,7 @@ span u{
     height:350px ;
     background-color: gold;
     padding: 15px 20px 40px 15px;
-    background-color: aqua;
-    
-    
+    font-family: 'Rubik', sans-serif ; 
    
 }
 .contactoDatos h1{
@@ -654,16 +716,17 @@ span u{
 }
 
 .domtel h2{
-    padding: 8px 103px  0 0 ;
+    padding: 0px 50px  0 0 ;
     margin-left: 100px;
     font-size: 13px;
+    font-family: 'Rubik', sans-serif ; 
 
 }
 .domtel p{
-    padding: 8px 103px  0 0 ;
+    padding: 0px 50px  0 0 ;
     margin-left: 100px;
     font-size: 13px;
-
+    font-family: 'Rubik', sans-serif ; 
 }  
 
 .redes{
@@ -674,29 +737,32 @@ span u{
 
 .presupuesto{
     background-color: gold;
-    width:440px;
-    margin-left: 22px;
+    width:435px;
+    margin-left: 0px;
     padding: 15px;
     margin: 0 auto;
+    font-family: 'Rubik', sans-serif ; 
 }
 
 .presupuesto h1{
     display: flex;
     background-color: gold;
     flex-direction: column;
-    padding: 20px 0px 40px 15px;
-    width: 440px;
-    background-color: aquamarine;
+    padding: 15px 0px 0px 8px;
+    width: 435px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
     
     
 }
 .redes{
-    padding: 8px 103px  0 0 ;
+    padding: 1px 0px  0 0 ;
 }
 
 .redes a{
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 10px;
     color:black;
     font-weight: bold;
     font-size: 13px;
@@ -708,12 +774,14 @@ span u{
 }
 label{
     font-size: 13px;
+    margin-top: 3px;
+    margin-left: 8px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 319px;
+    width: 340px;
 }
 input[type=text]{
     border: 0;
@@ -742,11 +810,844 @@ button{
     background-color: black;
     color: white;
     font-size: 10px;
+    margin-top: 5px;
 
+}
+button a:hover{
+    color: gold;
 }
 .bi-arrow-right-short{
     color: white;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{background: green;}
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Merienda&family=Oleo+Script&family=Poppins:wght@100&family=Rubik&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        scroll-behavior:smooth ;
+    }
+    body{
+       width: 870px;
+       margin: 0 auto;
+       
+    }
+    header{
+        width: 870px;
+        display:flex;
+        background-color: whitesmoke;
+        justify-content: space-around;
+        margin:0 auto;
+        align-items: center;
+       
+    }
+    header h1{
+        margin-left: 63px;
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+    
+    }
+    
+     header a{
+        text-decoration: none;
+        margin-top: 20px;
+        color:black;
+        font-weight: bold;
+        font-size: 13px; /*si lo pongo en rem es muy grande la tipografía*/
+        margin-left: 10px;
+          
+    }
+    
+    header a:hover{
+        color:gold;
+    }
+    nav{
+        
+        align-items: center;
+        justify-content: space-between        
+    }
+    .iconos i{
+        margin-right: 8px;
+    }
+    
+    .iconos i:hover{
+        color:gold;
+    }
+    
+    .texto_hero{
+        width: 400px;
+        flex-direction: column;
+        margin-left: 10px;
+        font-family: 'Rubik', sans-serif;
+           
+    }
+    
+    .texto_hero h1{
+        font-size: 1,5rem;
+        font-weight: 600 bolder;
+        border-right: 7px solid  #90a378; 
+        width: 291px;
+        height: 29px;
+        font-family: 'Rubik', sans-serif ;   
+    }
+    
+    .texto_hero h2{
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .texto_hero h3{
+        font-size:0,5rem;
+        font-family: 'Rubik', sans-serif;    
+    }
+    
+    .hero{
+        width: 820px;
+        height: 285px;
+        background-color:gold;
+        display: flex;
+        padding: 72px 0 0 72px;
+        margin: 0 auto;
+         
+     }
+    
+     .foto_hero{
+        
+        display: flex;
+        
+    }
+    .fotoHero img{
+        width: 45%;
+        border-radius: 100%; 
+        border-color:#638741;
+        margin-left: 110px;
+        margin-bottom: 60px;
+        border:solid 8px #90a378 ;
+     
+    }
+    
+     .flexhero{
+        display: flex;  
+        width: 400px;
+        align-items: center;
+        
+            
+    }
+    .boton a{
+        background-color: black;
+        color: white;
+        padding: 0 10px;
+        font-size: 0,5rem;
+    }
+    .contactame{
+        margin-left: 15px;
+        font-size: 10px;  
+     
+    }
+    .flechita{
+       padding: 5px; 
+        
+    }
+    .flechita2{
+        margin-top: 100px;
+        margin-left: 345px;
+    }
+    
+    .perfil{
+        margin: 0 auto;
+        width: 873px;
+        background-color:rgba(255, 255, 255, 0.938)
+        
+        
+    }
+    .miPerfil{
+        font-family: 'Rubik', sans-serif;    
+        text-align: center;
+        padding: 35px;
+    }
+    .boton2{
+       
+        background-color:gold;
+        padding: 0 15px;
+        border-color: #d4f2b8; 
+        
+    }
+    
+    .boton2{
+        font-size: 0,5rem;
+        color: black;
+    }
+    .miPerfil p{
+        font-weight: bold;
+        font-size: 20px; /*en rem no da la medida que me gusta*/
+        font-family: 'Rubik', sans-serif ;   
+    }
+    .flex{
+        display: flex;
+    }
+    .descripcion{
+        
+        width: 50%;
+        margin-left: 70px;  
+        
+    }
+    .descripcion h1{
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;   
+    }
+    .descripcion p{
+        margin-top: 8px;
+        text-align: justify;
+        font-family: 'Rubik', sans-serif ;    
+    }
+    span{
+        font-weight:bolder;
+        margin-top: 10px;
+        padding-left: 3px;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        border-bottom-color: gold;
+        width: 45px;
+        font-family: 'Rubik', sans-serif;    
+    }
+    .experiencia{
+        width: 50%;
+        margin-left: 60px;
+        text-align: center;
+    }
+    
+    .redondo{
+        margin-top: 30px;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: gold;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 100px;
+        margin-right: 100px; 
+        font-family: 'Rubik', sans-serif ;   
+    }
+    .redondo h1:hover{
+        font-family: 'Poppins', sans-serif;   
+    }
+    .datos{
+        padding: 40px 0;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Poppins', sans-serif;  
+    }
+    .datos h3{
+        font-size: 10px; /*en rem es muy grande, no me gusta*/
+        font-family: 'Poppins', sans-serif;  
+    }
+    .datos p{
+        font-size: 11px;
+        font-weight: bolder 300px;
+        font-family: 'Rubik', sans-serif ; 
+        
+    }
+    .servicios{
+        background-color:whitesmoke ;
+        padding: 30px;
+        width: 830px;
+        margin: 0 auto;
+    }
+    .miServicios{
+        text-align: center;
+    }
+    
+    .boton3{
+       padding: 0 15px;
+        border-color: #d4f2b8;
+        background-color:gold;
+           
+    }
+    
+    .boton3{
+        font-size: 10px;
+        color: black;
+    }
+    .miServicios p{
+        font-weight: bold;
+        font-size: 20px; 
+        font-family: 'Rubik', sans-serif ; 
+    }
+    .flexServicios{
+        display: flex;
+    }
+    .flexServicios2{
+        display: flex;
+    }
+    .icono, .disenio_grafico{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        
+    }
+    .flexServicios p, .flexServicios2 p{
+        text-align: center;
+        margin: 10px;
+    }
+    .icono, .disenio_web{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .icono, .desarrollo_web{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .icono, .marca{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .icono, .negocios{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        
+    }
+    .icono, .marketing_digital{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    
+    .bi-display {
+       color:  gold;
+    
+    }
+    
+    .bi-images{
+        color:gold;
+    }   
+        
+     .bi-pencil-square{
+        color: gold;
+     }
+    
+     .bi-magic{
+        color:gold;
+     }
+     .bi-file-bar-graph{
+        color:gold;
+     }
+    
+     .bi-globe {
+        color:gold;
+     }
+     .curriculum{
+        background-color:rgba(255, 255, 255, 0.938);
+        padding: 20px;
+        width: 870px;
+        
+        
+     }
+     .miCurriculum{
+        text-align: center;
+        padding: 20px; 
+        font-family: 'Rubik', sans-serif ; 
+        
+    }
+    .boton4{
+        padding: 0 15px;
+        border-color: #d4f2b8;
+        background-color:gold;
+                  
+     }
+         
+     .boton4{
+         font-size: 10px;
+        color: black;
+        
+    }
+    .miCurriculum p{
+        font-weight: bold;
+        font-size: 20px; 
+         
+    }
+    .flexCurriculum { 
+        
+        display: flex;
+        
+    }
+    .educacion{
+        width: 70%;
+        padding: 7px 60px;
+        font-size: 20px; /* en px me gusta más la medida*/
+        font-family: 'Rubik', sans-serif ; 
+        
+    }
+    .educacion h1{
+        font-family: 'Rubik', sans-serif ; 
+        font-size: ;
+        
+    }
+    
+    .miEducacionTitulos {
+        margin-left: 60px;
+        font-size: 20px;
+        padding: 0px 20px 0 6px;
+        border-left: 2px solid gold;
+        margin-top: 0px;
+        height: 229px;
+        width:65% ; 
+        font-family: 'Rubik', sans-serif ; 
+        
+    }
+    .miEducacionTitulos h2 {
+        font-weight: 10px;
+        font-size: 15px;
+        font-family: 'Rubik', sans-serif ; 
+        margin-top: 1px;
+        
+    }
+    .miEducacionTitulos h3{
+        font-size: 10px;
+        font-weight: 10px;
+        font-family: 'Rubik', sans-serif ; 
+    }
+    
+    .miEducacionTitulos p{
+        font-size:  10px; 
+        font-family: 'Rubik', sans-serif ;  
+        
+    }
+    
+    .experiencia2 h1{
+        font-size: 20px;
+        padding: 6px 32px 5px 0px;
+        margin-left: 32px;
+        width: 54%;
+        font-family: 'Rubik', sans-serif ; 
+        
+    }
+    
+    .miExperiencia{
+        
+        padding: 0px 0px 0px 6px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        border-left: 2px solid gold;
+        margin-top: 7px;
+        height:225px;
+        width: 83%;
+        font-family: 'Rubik', sans-serif ; 
+        
+    }
+    .miExperiencia h2 {
+        padding: 0;
+        font-size: 15px; 
+        font-weight: 10px;;
+    
+    }
+    .miExperiencia p{
+        font-size:  10px;
+        
+    }
+    .miExperiencia h3{
+        font-size: 10px;
+        font-weight: 10px;
+    }
+    
+    .jr{
+        padding: 5px 1px  2px 0 0;
+        margin-bottom: 4px;
+    
+    }
+    .adobe{
+        padding-bottom: ;
+        margin-top: 3px;
+    
+    }
+    .habilidades{
+        width: 595px;
+        padding: 5px 55px;
+        margin-top: 30px;
+        margin-bottom: 4px;
+    } 
+    .habilidades h1{
+        font-size: 20px;
+        margin-right: 30px;
+        padding-left: 3px;
+        font-family: 'Rubik', sans-serif ; 
+    }  
+    
+    .flexhabilidades {
+        display: flex;
+    }
+    
+    .barraiz{
+        width: 39%;
+        padding: 1px 58px;
+        margin-left: ;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+         
+    }
+        
+    .contenedor{
+        height: 3px;
+        width: 90%;
+        background-color:#b8b4ab;
+        
+    }
+    .barraiz {
+        display: flex;
+    }
+    .barraiz h3{
+        font-size: 10px;
+        font-family: 'Rubik', sans-serif ; 
+    }
+    .disenioweb{
+        padding: 0 0 0 0;
+        height: 4px;
+        
+        
+    }
+    .dw{
+        height:3px ;
+        width: 65%;
+        background-color:gold;
+            
+    }
+    .diseniohtc{
+        height: 4px;
+        margin-top: 12px;
+    }
+    
+    .htc{
+        height:3px ;
+        width: 95%;
+        background-color: gold;
+        padding: 0; 
+    }
+    .diseniojs{
+        height: 4px;
+        margin-top: 12px;
+    }
+    
+    .js{
+        height:3px ;
+        width: 80%;
+        background-color: gold;
+    }
+    .barrader{
+        width: 40%;
+        height: 3px;
+        padding: 3px 0 0 5px;
+        margin-left: 25px;
+        margin-bottom: ;
+        
+    }
+    
+    .barrader h3{
+        font-size: 10px;
+        font-family: 'Rubik', sans-serif ; 
+    }
+    .diseniorjs{
+        height: 3px;
+    }
+    .rjs{
+        height:3px ;
+        width: 70%;
+        background-color: gold;
+        display: flex;
+    }
+    .disenioan{
+        height: 4px;
+        margin-top: 12px;
+    }
+    .an{
+        height:3px ;
+        width: 60%;
+        background-color: gold;
+        display: flex;
+    }
+    .diseniobo{
+        height: 4px;
+        margin-top: 12px;
+    }
+    .bo{
+        height:3px ;
+        width: 99%;
+        background-color: gold;
+        display: flex;
+    }
+    
+    .w{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+        padding: 0 0 0 1px;
+    }
+    .h{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+    .j{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+    .r{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+        padding: 0 0px 0 0px;
+    }
+    .a{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+    .b{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+    hr{
+        background-color: whitesmoke ;
+    }
+    .contenedorboton{
+        padding: 0px 380px 0;
+        width: 835px;
+        
+        margin-top: ;
+        
+    }
+    .botoncv {
+        color:black;
+        font-size: 10px;
+        color:white;
+        padding: 0px 8px 0 0px;
+        text-decoration: none;
+        text-align: center; 
+        font-family: 'Rubik', sans-serif ;    
+    }
+    
+    .botoncv a:hover{
+        color: gold;
+    }
+    .portfolio{
+        background-color:whitesmoke;
+        padding: 50px 27px 0;
+        width: 870px;
+        margin: 0 auto;
+        height: 870px;
+        
+     }
+     .miPortfolio{
+        text-align: center;
+        padding: 20px;  
+        font-family: 'Rubik', sans-serif ; 
+    }
+    .boton5{
+        background-color:gold;
+        padding: 0 15px;
+        border-color:#d4f2b8;
+    }
+    .boton5{
+        font-size:10px ;
+        color:black;
+    }
+    .miPortfolio p{
+        font-weight: bold;
+        font-size: 20px; 
+        font-family: 'Rubik', sans-serif ; 
+    }
+    .flexfotos1{
+        padding: 6px 92px;
+        display: flex;
+        width: 20%;
+        height: 340px;
+        background-color: whitesmoke;
+        
+    }
+    .flexfotos1 img{
+        border: 7px solid whitesmoke;
+        filter:gold(100%)
+    }
+    .flexfotos1 img:hover{
+        filter: grayscale(0%);
+        transform: rotate(10deg);
+    }
+    
+    .flexfotos2{
+        display: flex;
+        width: 20%;
+        height: 340px;
+        padding: 0px 2px 0px 90px;
+        display: flex;
+        background-color: whitesmoke;   
+    }
+    .flexfotos2 img{
+        border: 7px solid whitesmoke;
+    }
+    .flexfotos2 img{
+        border: 7px solid whitesmoke;
+        filter:gold(100%)
+    }
+    .flexfotos2 img:hover{
+        filter: grayscale(0%);
+        transform: rotate(10deg);
+    }
+    
+    .contacto{
+        width: 870px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-family: 'Rubik', sans-serif ; 
+        
+    }
+    .flexcontacto{
+        display: flex;
+       
+        
+        
+    }
+    .contactoDatos {
+        /*flex-direction: column;*/
+        width: 430px;
+        height:350px ;
+        background-color: gold;
+        padding: 15px 20px 40px 15px;
+        font-family: 'Rubik', sans-serif ; 
+       
+    }
+    .contactoDatos h1{
+        font-size: 20px;
+        padding: 0 103px  0 0 ;
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 430px;
+    }
+    .contactoDatos p{
+        padding: 8px 103px  0 0 ;
+        margin-left: 100px;
+        font-size: 13px;
+        
+    }
+    
+    .domtel h2{
+        padding: 0px 50px  0 0 ;
+        margin-left: 100px;
+        font-size: 13px;
+        font-family: 'Rubik', sans-serif ; 
+    
+    }
+    .domtel p{
+        padding: 0px 50px  0 0 ;
+        margin-left: 100px;
+        font-size: 13px;
+        font-family: 'Rubik', sans-serif ; 
+    }  
+    
+    .redes{
+        padding: 0 103px  0 0 ;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    
+    .presupuesto{
+        background-color: gold;
+        width:435px;
+        margin-left: 0px;
+        padding: 15px;
+        margin: 0 auto;
+        font-family: 'Rubik', sans-serif ; 
+    }
+    
+    .presupuesto h1{
+        display: flex;
+        background-color: gold;
+        flex-direction: column;
+        padding: 15px 0px 0px 8px;
+        width: 435px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+        
+        
+    }
+    .redes{
+        padding: 1px 0px  0 0 ;
+    }
+    
+    .redes a{
+        text-decoration: none;
+        margin-top: 10px;
+        color:black;
+        font-weight: bold;
+        font-size: 13px;
+        
+    }
+    
+    .redes i:hover{
+        color:gold;
+    }
+    label{
+        font-size: 13px;
+        margin-top: 3px;
+        margin-left: 8px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+    }
+    input[type=text]{
+        border: 0;
+        border-bottom: 1px solid  #90a378;;
+        padding: 20px;
+        background-color: gold;
+    }
+    input[type=email]{
+        border: 0;
+        border-bottom: 1px solid  #90a378;;
+        padding: 20px;
+        background-color: gold;
+    }
+    textarea{
+        border: 0;
+        border-bottom: 1px solid  #90a378;
+        padding: 19px;
+        background-color: gold;
+    }
+    
+    
+    button{
+        width: 100px;
+        text-align: center;
+        padding: 8px 10px;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        margin-top: 5px;
+    
+    }
+    button a:hover{
+        color: gold;
+    }
+    .bi-arrow-right-short{
+        color: white;
+    }
+
+
+ }
 
 
 
