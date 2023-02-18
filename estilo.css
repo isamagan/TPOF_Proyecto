@@ -834,25 +834,35 @@ button a:hover{
         scroll-behavior:smooth ;
     }
     body{
-       width: 870px;
+       width: 480px;
        margin: 0 auto;
        
     }
     header{
-        width: 870px;
-        display:flex;
+        width: 480px;
+        display: flex;
         background-color: whitesmoke;
-        justify-content: space-around;
+        flex-direction: ;
         margin:0 auto;
-        align-items: center;
+        align-items:center;
+        margin-right: 20px;
+        padding:0 20px 0 0;
+        
        
     }
     header h1{
-        margin-left: 63px;
+        margin-left: ;
         font-size: 1rem;
         font-family: 'Rubik', sans-serif;
+        display: flex;
+        flex-direction: ;
     
     }
+    header h1 span{
+        display: flex;
+        
+    }
+    
     
      header a{
         text-decoration: none;
@@ -861,6 +871,10 @@ button a:hover{
         font-weight: bold;
         font-size: 13px; /*si lo pongo en rem es muy grande la tipografía*/
         margin-left: 10px;
+        text-decoration-color:;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
           
     }
     
@@ -881,7 +895,7 @@ button a:hover{
     }
     
     .texto_hero{
-        width: 400px;
+        width: 320px;
         flex-direction: column;
         margin-left: 10px;
         font-family: 'Rubik', sans-serif;
@@ -889,7 +903,7 @@ button a:hover{
     }
     
     .texto_hero h1{
-        font-size: 1,5rem;
+        font-size: 25px;
         font-weight: 600 bolder;
         border-right: 7px solid  #90a378; 
         width: 291px;
@@ -898,18 +912,18 @@ button a:hover{
     }
     
     .texto_hero h2{
-        font-size: 1rem;
+        font-size: 22px;
         font-family: 'Poppins', sans-serif;
         
     }
     .texto_hero h3{
-        font-size:0,5rem;
+        font-size:10px;
         font-family: 'Rubik', sans-serif;    
     }
     
     .hero{
-        width: 820px;
-        height: 285px;
+        width: 320px;
+        height: 800px;
         background-color:gold;
         display: flex;
         padding: 72px 0 0 72px;
@@ -918,17 +932,23 @@ button a:hover{
      }
     
      .foto_hero{
-        
-        display: flex;
+        width: 45%;
+        display:flex;
+        flex-direction:column ;
+        margin: ;
+        padding: ;
+    
         
     }
     .fotoHero img{
         width: 45%;
         border-radius: 100%; 
         border-color:#638741;
-        margin-left: 110px;
+        margin-left: ;
         margin-bottom: 60px;
-        border:solid 8px #90a378 ;
+        border:solid 8px #90a378;
+        display:flex;
+        flex-direction: column;    
      
     }
     
